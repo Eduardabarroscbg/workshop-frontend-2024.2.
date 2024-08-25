@@ -3,7 +3,7 @@ document.addEventListener('DOMContentLoaded', () => {
         {
             displayName: "Sage",
             role: { displayName: "Sentinela" },
-            description: "Como uma verdadeira fortaleza chinesa, Sage traz segurança para si mesma e para a equipe aonde quer que vá. Capaz de reviver aliados e rechaçar investidas agressivas, ela oferece um centro de calmaria em meio ao caos da batalha",
+            description: "Como uma verdadeira fortaleza chinesa, Sage traz segurança para si mesma e para a equipe aonde quer que vá. Capaz de reviver aliados e rechaçar investidas agressivas, ela oferece um centro de calmaria em meio ao caos da batalha.",
             image: "https://i.pinimg.com/originals/af/d0/c6/afd0c6d9c2e0fc3d5443d802f092e8f7.png"
         },
         {
@@ -54,8 +54,3 @@ document.addEventListener('DOMContentLoaded', () => {
         agentCardsContainer.appendChild(card);
     });
 });
-
-function scrollToCards() {
-    document.getElementById('agent-cards').scrollIntoView({ behavior: 'smooth' });
-}
-
